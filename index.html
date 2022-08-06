@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,37 +8,54 @@
     <title>Encriptador</title>
 </head>
 <body>
+
     <header>
         <img src="recursos/Imagenes/Logo.png" alt="Logo de Alura">
     </header>
 
     <main>
+
         <section class="seccion1">
 
-            <input type="text" placeholder="Ingrese el texto aqui">
-
+            <textarea name="" id="ingresarTexto" placeholder="Ingrese el texto aqui"></textarea>
             <p><i class="fa-solid fa-circle-exclamation"></i> Solo letras minusculas y sin acento</p>
-            <button>Encriptar</button>
-            <button>Desencriptar</button>
+
+            <div class="caja-botones">
+                
+                <button class="encriptar">Encriptar</button>
+                <button class="desencriptar">Desencriptar</button>
+            </div>
 
         </section>
 
         <section class="seccion2">
+
             <div class="caja-muñeco">
                 <img src="recursos/Imagenes/Muñeco.png" alt="Imagen de una persona mirando por una lupa">
             </div>
-            <div class="texto-encontrado">
+
+            <div class="caja-texto">
                 <h3>Ningún mensaje fue encontrado</h3>
-            </div>
-            <div class="info">
                 <p>Ingresa el texto que desees encriptar o desencriptar</p>
             </div>
-            <button class="boton-copiar" class="invisible" >copiar</button>
-        </section>
 
+            <div class="mensaje-resultado">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium qui odio, accusantium blanditiis non esse alias illum accusamus libero reprehenderit vel ab quaerat, impedit ullam fugiat commodi, labore error laboriosam.
+                Adipisci omnis beatae nemo culpa nam, qui quidem ducimus blanditiis quas modi ex fuga voluptas voluptatem corporis facere veritatis! Voluptatum perspiciatis nemo reprehenderit ad eveniet dolore rem quo reiciendis consequuntur!
+                Expedita exercitationem doloremque magni saepe minus velit dolores enim vitae? Est corrupti temporibus consectetur maxime ducimus, rem veniam facilis eum harum eos blanditiis, id a nisi reiciendis iusto nesciunt obcaecati!
+                Nulla, dignissimos itaque, porro incidunt veniam sequi laborum natus consectetur neque distinctio recusandae in molestiae. Id voluptatum, tempora laborum quasi molestias rem obcaecati iusto recusandae illo. Quis eum neque ducimus?
+                Repellat, sequi laboriosam! Illo mollitia distinctio aut </p>
+            </div>
+
+            <div class="caja-boton-copiar" >
+                <button class="boton-copiar">Copiar</button>
+            </div>
+
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
