@@ -1,8 +1,9 @@
-
 var botonencriptar = document.querySelector(".encriptar");
+var botondesencriptar = document.querySelector(".desencriptar");
 var resultado = document.querySelector(".texto-arreglado");
 
 botonencriptar.onclick = encriptar;
+botondesencriptar.onclick = desencriptar;
 
 /*funcion para traer el texto ingresado en textarea*/ 
 function traerTexto() {
@@ -15,4 +16,10 @@ function traerTexto() {
 function encriptar() {
     ocultarSeccionMuñeco();
     resultado.textContent = encriptarIngreso(traerTexto());
+}
+
+/* Funcion que ejecuta la desencriptacion */
+function desencriptar() {
+    ocultarSeccionMuñeco();
+    resultado.textContent = desencriptarIngreso(traerTexto());
 }
