@@ -1,3 +1,15 @@
+var botonencriptar = document.querySelector(".encriptar");
+
+botonencriptar.onclick = encriptar;
+
+/* Funcion que ejecuta la encriptacion*/
+
+function encriptar() {
+    ocultarSeccionMuñeco();
+    resultado.textContent = encriptarIngreso(traerTexto());
+}
+
+/*Funcion que encripta el texto*/
 function encriptarIngreso(texto) {
     var entrada = texto;
     var salida = "";

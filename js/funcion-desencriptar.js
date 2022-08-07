@@ -1,3 +1,14 @@
+var botondesencriptar = document.querySelector(".desencriptar");
+
+botondesencriptar.onclick = desencriptar;
+
+/* Funcion que ejecuta la desencriptacion */
+function desencriptar() {
+    ocultarSeccionMuñeco();
+    resultado.textContent = desencriptarIngreso(traerTexto());
+}
+
+/* Funcion que desencripta el texto */
 function desencriptarIngreso(texto) {
     var entrada = texto;
     var salida = "";

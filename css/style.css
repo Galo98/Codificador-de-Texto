@@ -45,6 +45,9 @@ header{
     height: 5%;
 }
 
+header img{
+    margin-top: 32px;
+}
 
 main{
     width: 100%;
@@ -72,6 +75,7 @@ section{
     color: var(--dark-blue-300);
     border: none;
     background-color: transparent;
+    outline: none;
 }
 
 ::placeholder{
@@ -88,8 +92,8 @@ section{
     color: var(--blanco);
 }
 .desencriptar, .encriptar{
-    width: 680px;
-    height: 67px;
+    width: 40%;
+    height: 6%;
 }
 
 .seccion2{
@@ -135,29 +139,38 @@ section{
 
 .mensaje-resultado{
     width: 100%;
-    height: 88%;
-    text-align: left;    
+    height: 90%;
+    text-align: center;    
     box-sizing: border-box;
     overflow:auto;
-    margin: 5% 0;
 }
 
-.mensaje-resultado p{
-    font-size: 1.8em;
-    padding: 10%;
+.texto-arreglado{
+    width: 90%;
+    height: 95%;
+    border: none;
+    resize: none;
+    font-size: 2em;
+    font-family: var(--text-font);
     color: var(--gray-400);
-
+    outline: none;
+    margin-top: 3.5%;
+    border-radius: 12px;
+    padding-top: 1.5%;
 }
+
+
+
 .caja-boton-copiar{
     text-align: center;
     width: 100%;
-    height: 5%;
+    height: 10%;
 }
 
 button{
 
-    width: 336px;
-    height: 67px;
+    width: 80%;
+    height: 60%;
 
     font-size: 1.4em;
     font-weight: 400;
@@ -169,7 +182,6 @@ button{
     border: 1px solid var(--dark-blue-300);   
     border-radius: 24px; 
 
-    
 }
 
 
@@ -201,3 +213,4 @@ footer{
   background: var(--dark-blue-500);
   border-radius: 10px;
 }
+
